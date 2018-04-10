@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package go.micro.srv.config.config;
 
-import "github.com/micro/go-os/config/proto/config.proto";
+import "github.com/pydio/go-os/config/proto/config.proto";
 
 service Config {
 	rpc Create(CreateRequest) returns (CreateResponse) {}

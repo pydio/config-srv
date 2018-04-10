@@ -4,12 +4,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/micro/config-srv/config"
-	"github.com/micro/config-srv/db"
-	proto "github.com/micro/config-srv/proto/config"
+	"github.com/pydio/config-srv/config"
+	"github.com/pydio/config-srv/db"
+	proto "github.com/pydio/config-srv/proto/config"
 	"github.com/micro/go-micro/errors"
-	conf "github.com/micro/go-os/config"
-	proto2 "github.com/micro/go-os/config/proto"
+	conf "github.com/pydio/go-os/config"
+	proto2 "github.com/pydio/go-os/config/proto"
 
 	"golang.org/x/net/context"
 )

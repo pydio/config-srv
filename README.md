@@ -19,7 +19,7 @@ Config server is a microservice to store dynamic configuration. It can be used w
 4. Download and start the service
 
 	```shell
-	$ go get github.com/micro/config-srv
+	$ go get github.com/pydio/config-srv
 	$ config-srv --database_url="root:root@tcp(192.168.99.100:3306)/config"
 	```
 
